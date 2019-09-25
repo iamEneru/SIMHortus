@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.vbadapts.simhortus"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:34:5-65
+12-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:34:22-62
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:36:5-66
+13-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:36:22-63
+14
+15    <dist:module dist:instant="true" />
+15-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:38:5-40
+15-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:38:18-37
+16
+17    <application
+17-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:6:5-33:19
+18        android:allowBackup="true"
+18-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Tabuena\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/logo_launcher"
+21-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:8:9-45
+22        android:label="@string/app_name"
+22-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:9:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:10:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:11:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:12:9-40
+27        <activity android:name="com.vbadapts.simhortus.SettingsActivity" />
+27-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:13:9-63
+27-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:13:19-51
+28        <activity android:name="com.vbadapts.simhortus.LifeCycleActivity" />
+28-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:14:9-55
+28-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:14:19-52
+29        <activity android:name="com.vbadapts.simhortus.TemperatureActivity" />
+29-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:15:9-57
+29-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:15:19-54
+30        <activity android:name="com.vbadapts.simhortus.LightActivity" />
+30-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:16:9-51
+30-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:16:19-48
+31        <activity android:name="com.vbadapts.simhortus.SoilMoistureActivity" />
+31-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:17:9-58
+31-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:17:19-55
+32        <activity android:name="com.vbadapts.simhortus.PlantActivity" />
+32-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:18:9-51
+32-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:18:19-48
+33        <activity android:name="com.vbadapts.simhortus.MenuActivity" />
+33-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:19:9-50
+33-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:19:19-47
+34        <activity android:name="com.vbadapts.simhortus.SignUpActivity" />
+34-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:20:9-52
+34-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:20:19-49
+35        <activity android:name="com.vbadapts.simhortus.ScanActivity" />
+35-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:21:9-50
+35-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:21:19-47
+36        <activity android:name="com.vbadapts.simhortus.MainActivity" >
+36-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:22:9-28:20
+36-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:22:19-47
+37            <intent-filter>
+37-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:23:13-27:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:24:17-69
+38-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:26:17-77
+40-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:26:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <meta-data
+44-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:30:9-32:39
+45            android:name="com.google.android.gms.vision.DEPENDENCIES"
+45-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:31:13-70
+46            android:value="barcode" />
+46-->C:\Users\Tabuena\Desktop\SIMHortus\app\src\main\AndroidManifest.xml:32:13-36
+47
+48        <activity
+48-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Tabuena\.gradle\caches\transforms-2\files-2.1\cf546399f16b2944447d0890fd2739c2\jetified-play-services-base-15.0.1\AndroidManifest.xml:23:9-26:75
+49            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+49-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Tabuena\.gradle\caches\transforms-2\files-2.1\cf546399f16b2944447d0890fd2739c2\jetified-play-services-base-15.0.1\AndroidManifest.xml:24:13-79
+50            android:exported="false"
+50-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Tabuena\.gradle\caches\transforms-2\files-2.1\cf546399f16b2944447d0890fd2739c2\jetified-play-services-base-15.0.1\AndroidManifest.xml:25:13-37
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+51-->[com.google.android.gms:play-services-base:15.0.1] C:\Users\Tabuena\.gradle\caches\transforms-2\files-2.1\cf546399f16b2944447d0890fd2739c2\jetified-play-services-base-15.0.1\AndroidManifest.xml:26:13-72
+52
+53        <meta-data
+53-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Tabuena\.gradle\caches\transforms-2\files-2.1\98451ab1c899fb02cc67bc88c0442fe2\jetified-play-services-basement-15.0.1\AndroidManifest.xml:23:9-25:69
+54            android:name="com.google.android.gms.version"
+54-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Tabuena\.gradle\caches\transforms-2\files-2.1\98451ab1c899fb02cc67bc88c0442fe2\jetified-play-services-basement-15.0.1\AndroidManifest.xml:24:13-58
+55            android:value="@integer/google_play_services_version" />
+55-->[com.google.android.gms:play-services-basement:15.0.1] C:\Users\Tabuena\.gradle\caches\transforms-2\files-2.1\98451ab1c899fb02cc67bc88c0442fe2\jetified-play-services-basement-15.0.1\AndroidManifest.xml:25:13-66
+56    </application>
+57
+58</manifest>

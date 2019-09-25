@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:id="@+id/textscan"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="30dp"
+        android:elevation="6dp"
+        android:gravity="left"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER AN ACCOUNT"
+            android:textColor="#8BC34A"
+            android:textSize="24sp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:elevation="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/scanscreen"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+                    android:hint="Username"
+                    android:singleLine="true"></EditText>
+
+                <EditText
+                    android:id="@+id/fullname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Full Name"
+                    android:singleLine="true"></EditText>
+
+                <EditText
+                    android:id="@+id/location"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Location"
+                    android:singleLine="true"></EditText>
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"></EditText>
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:password="true"
+                    android:singleLine="true"></EditText>
+
+                <EditText
+                    android:id="@+id/password2"
+                    android:layout_width="302dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:password="true"
+                    android:singleLine="true"></EditText>
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Agree with Terms &amp; Conditions"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnSignUp"
+                    style="@android:style/Widget.Material.Button.Colored"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundbuttondark"
+                    android:text="SIGN UP"
+                    android:onClick="goToMenupActivity"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:layout_width="297dp"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="—or—" />
+
+                <Button
+                    android:id="@+id/btnGmail--------------------------------------------"
+                    style="@android:style/Widget.Material.Button.Colored"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundbutton"
+                    android:text="REGISTER WITH GMAIL"
+                    android:textColor="#FFFFFF"
+                    android:onClick="signUpOptions"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

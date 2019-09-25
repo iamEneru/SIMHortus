@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "363849625432",
+    "firebase_url": "https://sim-hortus.firebaseio.com",
+    "project_id": "sim-hortus",
+    "storage_bucket": "sim-hortus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363849625432:android:1b5f1cac9bddcc4e183f2d",
+        "android_client_info": {
+          "package_name": "com.vbadapts.simhortus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363849625432-ld0hd3al7rovujkgjt7tv4fu33n5nj38.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vbadapts.simhortus",
+            "certificate_hash": "0b774ea5bc8d77a7fcfa1a20096271e5164db866"
+          }
+        },
+        {
+          "client_id": "363849625432-v00ahr0lo2pbs0qjhlm89af3hvkcf7rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgINewvlojOHeh2B1-HyKTheC3m-5axqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363849625432-v00ahr0lo2pbs0qjhlm89af3hvkcf7rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
